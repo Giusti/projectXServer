@@ -13,7 +13,6 @@ public class UserService {
      private UserRepository userRepository;
 
      public List<User> getAllUsers() {
-         // return users;
          List<User> users = new ArrayList<>();
          userRepository.findAll().forEach(users::add);
          return users;
