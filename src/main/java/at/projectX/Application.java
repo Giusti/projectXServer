@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("at.projectX.service")
+@ComponentScan("at.projectX")
 public class Application {
 
     public static void main(String[] args) {

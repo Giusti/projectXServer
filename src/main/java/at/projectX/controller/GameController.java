@@ -29,7 +29,7 @@ public class GameController {
     }
 
     @RequestMapping(method = RequestMethod.PUT, value="/games/{id}")
-    public void updateUser(@RequestBody Game game, @PathVariable String id) {
+    public void updateGame(@RequestBody Game game, @PathVariable String id) {
         gameService.updateGame(game);
     }
 

@@ -3,7 +3,6 @@ package at.projectX.controller;
 import at.projectX.domain.User;
 import at.projectX.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,7 +14,6 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping("/users")
-    @PreAuthorize("hasAuthority('ADMIN_USER')")
     public List<User> getAllUsers() {
         return userService.getAllUsers();
     }

@@ -1,4 +1,4 @@
-package at.projectX.config;
+/*package at.projectX.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -32,4 +32,4 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
                 .antMatchers("/actuator/**", "/api-docs/**", "/games/**").permitAll()
                 .antMatchers("/springjwt/**" ).authenticated();
     }
-}
+}*/

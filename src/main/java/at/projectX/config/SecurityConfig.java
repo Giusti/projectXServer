@@ -1,4 +1,4 @@
-package at.projectX.config;
+/*package at.projectX.config;
 
 import java.util.Arrays;
 
@@ -85,4 +85,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         defaultTokenServices.setSupportRefreshToken(true);
         return defaultTokenServices;
     }
-}
+}*/
