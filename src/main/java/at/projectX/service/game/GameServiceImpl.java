@@ -1,5 +1,6 @@
 package at.projectX.service.game;
 import at.projectX.domain.Game;
+import at.projectX.repository.GameService;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -9,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class GameService {
+public class GameServiceImpl implements GameService {
 
 
     private Configuration con = new Configuration().configure().addAnnotatedClass(Game.class);

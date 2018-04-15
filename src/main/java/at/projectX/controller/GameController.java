@@ -1,7 +1,7 @@
 package at.projectX.controller;
 
 import at.projectX.domain.Game;
-import at.projectX.service.game.GameService;
+import at.projectX.repository.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
